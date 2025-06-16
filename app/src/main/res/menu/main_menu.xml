@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:contentDescription="Search news" />
+
+    <item
+        android:id="@+id/action_saved"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Saved Articles"
+        app:showAsAction="ifRoom"
+        android:contentDescription="View saved articles" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="never" />
+
+</menu>

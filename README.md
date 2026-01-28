@@ -1,6 +1,6 @@
 # Daily News - Professional Android News Aggregator
 
-[![Android CI](https://github.com/yourusername/-Daily-news-android/workflows/Android%20CI/badge.svg)](https://github.com/yourusername/-Daily-news-android/actions)
+[![Android CI](https://github.com/yourusername/-Daily-news-android/workflows/Android%20CI/badge.svg)](https://github.com/ayush0210/-Daily-news-android/actions)
 [![API](https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=24)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.20-blue.svg)](https://kotlinlang.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

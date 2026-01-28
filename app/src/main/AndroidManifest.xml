@@ -39,8 +39,17 @@
 
         <activity
             android:name=".ui.detail.DetailActivity"
-            android:exported="false"
-            android:theme="@style/Theme.DailyNews" />
+            android:exported="true"
+            android:theme="@style/Theme.DailyNews">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="dailynews"
+                    android:host="article" />
+            </intent-filter>
+        </activity>
 
         <activity
             android:name=".ui.saved.SavedActivity"

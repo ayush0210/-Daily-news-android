@@ -27,4 +27,10 @@ class SavedViewModel @Inject constructor(
             repository.removeSavedArticle(article)
         }
     }
+
+    fun restoreArticle(article: Article) {
+        viewModelScope.launch {
+            repository.saveArticle(article)
+        }
+    }
 }

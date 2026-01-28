@@ -112,4 +112,16 @@ class NewsRepository @Inject constructor(
     suspend fun clearCache() {
         articleDao.clearCache()
     }
+
+    suspend fun insertArticle(article: Article) {
+        articleDao.insertArticle(article)
+    }
+
+    suspend fun deleteArticle(article: Article) {
+        articleDao.deleteArticle(article)
+    }
+
+    fun isArticleSaved(url: String): Flow<Boolean> {
+        return articleDao.isArticleSaved(url)
+    }
 }

@@ -31,5 +31,14 @@ interface ArticleDao {
 
     @Query("SELECT * FROM articles WHERE url = :url")
     suspend fun getArticleByUrl(url: String): Article?
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertArticle(article: Article)
+
+    @Delete
+    suspend fun deleteArticle(article: Article)
+
+    @Query("SELECT EXISTS(SELECT 1 FROM articles WHERE url = :url AND isSaved = 1)")
+    fun isArticleSaved(url: String): Flow<Boolean>
 }
 

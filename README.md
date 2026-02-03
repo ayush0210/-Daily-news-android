@@ -1,6 +1,5 @@
-# Daily News - Professional Android News Aggregator
+## Daily News
 
-[![Android CI](https://github.com/yourusername/-Daily-news-android/workflows/Android%20CI/badge.svg)](https://github.com/ayush0210/-Daily-news-android/actions)
 [![API](https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=24)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9.20-blue.svg)](https://kotlinlang.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -130,16 +129,16 @@ Data Layer (Repository, API, Database)
 
 ## Best Practices
 
-✅ Clean Architecture with MVVM
-✅ Dependency Injection with Hilt
-✅ Reactive Programming with Flow
-✅ Comprehensive Error Handling
-✅ Offline-First Architecture
-✅ Material Design 3
-✅ Dark Theme Support
-✅ ProGuard Optimization
-✅ CI/CD with GitHub Actions
-✅ Unit & UI Testing
+Clean Architecture with MVVM
+Dependency Injection with Hilt
+Reactive Programming with Flow
+Comprehensive Error Handling
+Offline-First Architecture
+Material Design 3
+Dark Theme Support
+ProGuard Optimization
+CI/CD with GitHub Actions
+Unit & UI Testing
 
 ## License
 
